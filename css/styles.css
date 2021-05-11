@@ -631,11 +631,18 @@ input[type='checkbox'] {
 	transition: all 0.2s;
 }
 
-.navbar-custom .navbar-brand.logo-image img {
+.navbar-custom .navbar-brand img {
     width: 113px;
 	height: 34px;
 	margin-bottom: 1px;
 	-webkit-backface-visibility: hidden;
+}
+
+.logo-image{
+	 width: 11px;
+	 height: px;
+	 margin-bottom: 1px;
+	 
 }
 
 .navbar-custom .navbar-brand.logo-text {
