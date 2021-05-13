@@ -644,6 +644,12 @@ input[type='checkbox'] {
 	 margin-bottom: 1px;
 	 
 }
+.log{
+	width: 104px;
+	height: px;
+	margin-bottom: 1px;
+
+}
 
 .navbar-custom .navbar-brand.logo-text {
 	font: 700 2.375rem/1.5rem "Montserrat", sans-serif;
