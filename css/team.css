@@ -22,10 +22,12 @@
 }
 .banner-text {
   z-index: 1;
-  margin-bottom: 20rem;
   text-align: center;
   display: grid;
   justify-items: center;
+  /* padding: 20rem;
+  margin-top: -20rem; */
+  margin-bottom: 20rem;
 }
 .banner-text p {
   text-shadow: 1px 1px #372b97;
@@ -137,3 +139,4 @@
 .cyan{
   color: #40e0ee;
 }
+
