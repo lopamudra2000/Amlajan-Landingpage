@@ -1,0 +1,142 @@
+.team-svg {
+  position: absolute;
+  bottom: -4.5vw;
+  right: 0;
+  filter: invert(0.05);
+  width: 95%;
+}
+#header {
+  position: relative;
+}
+.wave {
+  z-index: 1;
+  position: relative;
+}
+
+.tabs {
+  z-index: 1;
+  position: relative;
+}
+.rows {
+  justify-content: center;
+}
+.banner-text {
+  z-index: 1;
+  text-align: center;
+  display: grid;
+  justify-items: center;
+  /* padding: 20rem;
+  margin-top: -20rem; */
+  margin-bottom: 20rem;
+}
+.banner-text p {
+  text-shadow: 1px 1px #372b97;
+  margin: 1rem;
+  margin-bottom: 3rem;
+  width: 350px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.card-profile {
+  width: 275px;
+  margin: 50px auto;
+  background-color: #e6e5e1;
+  border-radius: 0;
+  border: 0;
+  box-shadow: 1em 1em 2em rgba(0, 0, 0, 0.2);
+  filter: drop-shadow(0px 4px 6px black);
+}
+.card-profile .card-img-top {
+  border-radius: 0;
+}
+.card-profile .card-img-profile {
+  max-width: 80%;
+  border-radius: 50%;
+  margin-top: -95px;
+  margin-bottom: 35px;
+  border: 5px solid #e6e5e1;
+}
+.card-profile .card-title {
+  margin-bottom: 16px;
+}
+.card-profile > img {
+  height: 160px;
+}
+.card-block {
+  z-index: 1;
+  position: relative;
+}
+.card-profile .card-title small {
+  display: block;
+  font-size: 0.6em;
+  margin-top: 0.2em;
+}
+.card-profile .card-links {
+  margin-bottom: 25px;
+}
+.card-profile .card-links .fa,
+.card-profile .card-links .fab {
+  margin: 0 1em;
+  font-size: 1.6em;
+  text-decoration: none;
+}
+.card-profile .card-links .fa:focus,
+.card-profile .card-links .fa:hover {
+  text-decoration: none;
+}
+.fab.fa-dribbble {
+  color: #ea4b89;
+  font-weight: bold;
+}
+.footer .fa-stack .fa-stack-1x {
+  color: #262431;
+  transition: all 0.2s ease;
+}
+
+.fab.fa-linkedin-in {
+  color: #3b5999 !important;
+}
+.fab.fa-linkedin-in:hover {
+  color: #2d4474 !important;
+}
+.tint {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.7) 0%,
+      #ffffff00 50%,
+      rgba(0, 0, 0, 0.7) 100%
+    ),
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.7) 0%,
+      #ffffff00 50%,
+      rgba(0, 0, 0, 0.7) 100%
+    );
+}
+.teams-wrap {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.contri {
+  margin-top: 3rem;
+}
+.card-img-profile2 {
+  width: 220px;
+  height: 220px;
+  position: relative;
+  top: -15px;
+  border-radius: 15px;
+}
+.cyan{
+  color: #40e0ee;
+}
+
